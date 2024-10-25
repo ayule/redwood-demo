@@ -24,7 +24,7 @@ path = "/var/www/app"
 processNames = ["serve"]
 repo = "git@github.com:ayule/redwood-demo.git"
 branch = "main"
-keepReleases = 5
+keepReleases = 3
 freeSpaceRequired = 2048
 
 # If you have separate api and web servers:
