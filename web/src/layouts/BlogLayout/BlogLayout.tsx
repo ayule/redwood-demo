@@ -13,7 +13,7 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
       <header>
         <div className="flex-between">
           <h1>
-            <Link to={routes.home()}>Food Trust</Link>
+            <Link to={routes.home()}>foodtrust.app</Link>
           </h1>
           {isAuthenticated ? (
             <div>
